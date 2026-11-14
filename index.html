@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seattle Restaurants Map</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
+<style>
+  :root {
+    --bg: #faf8f4; --ink: #2a2622; --muted: #6d655c; --line: #ddd6cb;
+    --accent: #a8321f;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body { height: 100dvh; font: 15px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--ink); display: flex; flex-direction: column; }
+  header { padding: 10px 16px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; }
+  header h1 { font: 600 18px Georgia, serif; margin: 0; color: var(--accent); }
+  header h1 small { font: 13px system-ui, sans-serif; color: var(--muted); font-weight: 400; margin-left: 6px; }
+  #filters { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { border: 1px solid var(--line); background: #fff; color: var(--ink); border-radius: 999px; padding: 3px 11px; font: inherit; font-size: 13px; cursor: pointer; }
+  .chip.off { opacity: .4; }
+  #main { flex: 1; min-height: 0; position: relative; }
+  #map { position: absolute; inset: 0; }
+  .pin { width: 28px; height: 28px; border-radius: 50%; background: var(--accent); border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.35); display: flex; align-items: center; justify-content: center; font-size: 14px; line-height: 1; }
+  .leaflet-tooltip.banner { background: #fff; color: var(--ink); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,.25); padding: 6px 10px; font: 600 13px/1.3 system-ui, sans-serif; white-space: normal; width: max-content; max-width: 280px; }
+  .leaflet-tooltip.banner small { display: block; font-weight: 400; color: var(--muted); margin-top: 2px; }
+  .marker-cluster div { font-weight: 600; }
+  .actions { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 8px; }
+  .actions a, .actions button { color: var(--accent); font: 600 13px system-ui, sans-serif; text-decoration: none; background: none; border: 0; padding: 4px 0; cursor: pointer; }
+  .card b { display: block; font: 600 14px/1.3 system-ui, sans-serif; }
+  .card small { display: block; color: var(--muted); margin-top: 3px; font-size: 12px; }
+  /* Details panel: right-hand sidebar on wide screens, bottom sheet on phones. */
+  #details { position: absolute; z-index: 1000; background: #fff; border: 1px solid var(--line); box-shadow: 0 2px 14px rgba(0,0,0,.25); padding: 14px 16px 16px; overflow: auto;
+             top: 10px; right: 10px; bottom: 10px; width: 340px; border-radius: 8px; }
+  #details[hidden] { display: none; }
+  #details h2 { font: 600 19px Georgia, serif; margin: 0 28px 2px 0; }
+  #details .meta { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
+  #details p { margin: 0 0 10px; }
+  #details h3 { font: 600 12px system-ui, sans-serif; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin: 14px 0 4px; }
+  #details ul { margin: 0; padding-left: 18px; }
+  #details li { margin-bottom: 4px; }
+  #details li a { color: var(--accent); }
+  #close { position: absolute; top: 8px; right: 10px; border: 0; background: none; font-size: 24px; line-height: 1; cursor: pointer; color: var(--muted); }
+  #credit { font-size: 12px; color: var(--muted); padding: 4px 16px; border-top: 1px solid var(--line); }
+  .locate { background: #fff; border: 2px solid rgba(0,0,0,.25); border-radius: 4px; padding: 6px 10px; font: 600 13px system-ui, sans-serif; cursor: pointer; }
+  @media (max-width: 600px) {
+    header h1 small { display: none; }
+    #details { top: auto; left: 0; right: 0; bottom: 0; width: auto; max-height: 55%; border-radius: 12px 12px 0 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Seattle Restaurants <small>from The Seattle Times lists</small></h1>
+  <div id="filters" role="group" aria-label="Filter by cuisine"></div>
+</header>
+<div id="main">
+  <div id="map"></div>
+  <aside id="details" hidden aria-live="polite"></aside>
+</div>
+<div id="credit">Unofficial map. Restaurant lists and articles &copy; <a href="https://www.seattletimes.com">The Seattle Times</a>; descriptions are our own summaries. Map data &copy; OpenStreetMap contributors.</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script src="restaurants.js"></script>
+<script>
+// Restaurant data (generated by tools/geocode.py) lives in restaurants.js:
+// {id, name, address, neighborhood, cuisine, price, description, sources:[{list,title,url,date}], lat, lng}
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+// Source links come from data files; only ever emit http(s) URLs.
+const safeUrl = u => (/^https?:\/\//i.test(u) ? u : "#");
+const mapsUrl = r => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent((r.name + " " + (r.address || "")).trim());
+const dirUrl = r => "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent((r.name + " " + (r.address || "")).trim());
+const cuisineOf = r => r.cuisine || "Other";
+
+const SEATTLE = L.latLngBounds([47.45, -122.45], [47.80, -122.20]);
+const map = L.map("map", { maxBounds: L.latLngBounds([47.1, -122.9], [48.1, -121.6]), minZoom: 9, markerZoomAnimation: false, fadeAnimation: false });
+map.fitBounds(RESTAURANTS.length ? L.latLngBounds(RESTAURANTS.map(r => [r.lat, r.lng])).pad(0.1) : SEATTLE);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19, updateWhenZooming: false,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+const cluster = L.markerClusterGroup({ showCoverageOnHover: false, chunkedLoading: true, animate: false, animateAddingMarkers: false, maxClusterRadius: 45 }).addTo(map);
+const CAN_HOVER = !!(window.matchMedia && matchMedia("(hover: hover) and (pointer: fine)").matches);
+const details = document.getElementById("details");
+
+function showDetails(r) {
+  const srcs = (r.sources || []).map(s =>
+    `<li><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">${esc(s.title || s.list || "Seattle Times article")}</a>` +
+    `${s.list && s.title ? `<br><small>${esc(s.list)}${s.date ? " · " + esc(s.date) : ""}</small>` : (s.date ? ` <small>${esc(s.date)}</small>` : "")}</li>`).join("");
+  details.innerHTML =
+    `<button id="close" type="button" aria-label="Close">&times;</button>` +
+    `<h2>${esc(r.name)}</h2>` +
+    `<div class="meta">${[cuisineOf(r), r.price, r.neighborhood].filter(Boolean).map(esc).join(" · ")}</div>` +
+    (r.description ? `<p>${esc(r.description)}</p>` : "") +
+    (r.address ? `<div>${esc(r.address)}</div>` : "") +
+    `<div class="actions"><a href="${mapsUrl(r)}" target="_blank" rel="noopener">Open in Google Maps ›</a>` +
+    `<a href="${dirUrl(r)}" target="_blank" rel="noopener">Directions ›</a></div>` +
+    (srcs ? `<h3>Seattle Times</h3><ul>${srcs}</ul>` : "");
+  details.hidden = false;
+  details.scrollTop = 0;
+  document.getElementById("close").onclick = () => { details.hidden = true; };
+}
+
+function popupHtml(r) {
+  const first = (r.sources || [])[0];
+  return `<div class="card"><b>${esc(r.name)}</b><small>${[cuisineOf(r), r.neighborhood].filter(Boolean).map(esc).join(" · ")}</small>` +
+    `<div class="actions"><a href="${mapsUrl(r)}" target="_blank" rel="noopener">Google Maps</a>` +
+    (first ? `<a href="${esc(safeUrl(first.url))}" target="_blank" rel="noopener">Seattle Times</a>` : "") +
+    `<button type="button" data-details="${esc(r.id)}">Details</button></div></div>`;
+}
+
+const markers = RESTAURANTS.map(r => {
+  const m = L.marker([r.lat, r.lng], {
+    title: "", alt: r.name, keyboard: true,
+    icon: L.divIcon({ className: "", html: `<div class="pin">🍴</div>`, iconSize: [28, 28], iconAnchor: [14, 14], tooltipAnchor: [16, 0], popupAnchor: [0, -14] })
+  });
+  m.bindPopup(popupHtml(r), { maxWidth: 260, autoPanPadding: [20, 70] });
+  if (CAN_HOVER) {
+    m.once("mouseover", () => {
+      m.bindTooltip(`${esc(r.name)}<small>${[cuisineOf(r), r.neighborhood].filter(Boolean).map(esc).join(" · ")}</small>`, { className: "banner", direction: "right" });
+      m.openTooltip();
+    });
+  }
+  m.r = r;
+  return m;
+});
+map.on("popupopen", e => {
+  const b = e.popup.getElement().querySelector("[data-details]");
+  if (b) b.onclick = () => { showDetails(e.popup._source.r); map.closePopup(); };
+});
+
+// Cuisine filters, built from whatever is in the data.
+const cuisines = [...new Set(RESTAURANTS.map(cuisineOf))].sort();
+const active = new Set(cuisines);
+function render() {
+  cluster.clearLayers();
+  cluster.addLayers(markers.filter(m => active.has(cuisineOf(m.r))));
+}
+const filters = document.getElementById("filters");
+for (const c of cuisines) {
+  const b = document.createElement("button");
+  b.className = "chip"; b.type = "button"; b.textContent = c;
+  b.onclick = () => {
+    active.has(c) ? active.delete(c) : active.add(c);
+    b.classList.toggle("off", !active.has(c));
+    render();
+  };
+  filters.appendChild(b);
+}
+render();
+
+// "Near me": centers on your location with a 2-mile radius circle.
+// Geolocation needs a secure context or a local file; it is skipped in sandboxed iframes.
+if (navigator.geolocation && window.top === window) {
+  const RADIUS_M = 3219; // 2 miles
+  const Locate = L.Control.extend({
+    options: { position: "topleft" },
+    onAdd() {
+      const b = L.DomUtil.create("button", "locate");
+      b.type = "button"; b.textContent = "📍 Near me";
+      L.DomEvent.disableClickPropagation(b);
+      b.onclick = () => { b.textContent = "Locating…"; map.locate({ setView: false, enableHighAccuracy: true, timeout: 15000 }); };
+      this._b = b; return b;
+    }
+  });
+  const ctl = new Locate().addTo(map);
+  let dot, ring;
+  map.on("locationfound", e => {
+    ctl._b.textContent = "📍 Near me";
+    if (dot) dot.remove();
+    if (ring) ring.remove();
+    if (!map.options.maxBounds.contains(e.latlng)) { ctl._b.textContent = "📍 Near me (you're outside the Seattle area)"; return; }
+    ring = L.circle(e.latlng, { radius: RADIUS_M, color: "#1a73e8", weight: 1, fillOpacity: 0.05, interactive: false }).addTo(map);
+    dot = L.circleMarker(e.latlng, { radius: 8, color: "#fff", weight: 3, fillColor: "#1a73e8", fillOpacity: 1, interactive: false }).addTo(map);
+    map.fitBounds(ring.getBounds());
+  });
+  map.on("locationerror", e => {
+    const why = location.protocol === "file:" && e.code === 1 ? "blocked on local files; use http(s)"
+      : e.code === 1 ? "permission denied"
+      : e.code === 2 ? "position unavailable"
+      : e.code === 3 ? "timed out" : "unavailable";
+    ctl._b.textContent = "📍 Near me (" + why + ")";
+    console.warn("geolocation error", e.code, e.message);
+  });
+}
+</script>
+</body>
+</html>

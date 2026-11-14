@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "hamdi",
+    "name": "Hamdi",
+    "address": "4012 NW Leary Way, Seattle, WA",
+    "neighborhood": "Fremont",
+    "cuisine": "Turkish",
+    "price": null,
+    "description": "Live-fire Turkish cooking around a big open grill, known for dry-aged steaks and hand-minced lamb belly kebap.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 20)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.6565406,
+    "lng": -122.3620072,
+    "geo": {
+      "confidence": "high",
+      "source": "manual"
+    }
+  },
+  {
+    "id": "le-pichet",
+    "name": "Le Pichet",
+    "address": "1933 1st Ave, Seattle, WA",
+    "neighborhood": "Downtown",
+    "cuisine": "French",
+    "price": null,
+    "description": "Long-running Paris-style bistro by Pike Place Market with a zinc bar, onion soup and chicken liver terrine.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 19)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.610807,
+    "lng": -122.342558,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "communion",
+    "name": "Communion",
+    "address": "2350 E Union St, Seattle, WA",
+    "neighborhood": "Central District",
+    "cuisine": "Seattle Soul",
+    "price": null,
+    "description": "Chef Kristi Brown's Central District restaurant mixing Southern classics with Pacific Northwest and global flavors.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 18)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.613127,
+    "lng": -122.301635,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "joule",
+    "name": "Joule",
+    "address": "3506 Stone Way N, Seattle, WA",
+    "neighborhood": "Fremont",
+    "cuisine": "Modern Korean",
+    "price": null,
+    "description": "Chef Rachel Yang's Korean-influenced kitchen on Stone Way, praised for steak dishes, tartare and a kalbi burger.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 17)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.649725,
+    "lng": -122.3424,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "ba-bar-central-district",
+    "name": "Ba Bar (Central District)",
+    "address": "550 12th Ave, Seattle, WA",
+    "neighborhood": "Central District",
+    "cuisine": "Vietnamese",
+    "price": null,
+    "description": "Fast-casual Vietnamese with pho, imperial rolls and house-milled rice-flour banh cuon.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 16)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.607011,
+    "lng": -122.316503,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "ba-bar-south-lake-union",
+    "name": "Ba Bar (South Lake Union)",
+    "address": "500 Terry Ave N, Seattle, WA",
+    "neighborhood": "South Lake Union",
+    "cuisine": "Vietnamese",
+    "price": null,
+    "description": "South Lake Union location of Ba Bar.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 16)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.623384,
+    "lng": -122.336882,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "ba-bar-university-village",
+    "name": "Ba Bar (University Village)",
+    "address": "2685 NE 46th St, Seattle, WA",
+    "neighborhood": "University Village",
+    "cuisine": "Vietnamese",
+    "price": null,
+    "description": "University Village location of Ba Bar.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 16)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.661635,
+    "lng": -122.297998,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "musang",
+    "name": "Musang",
+    "address": "2524 Beacon Ave S, Seattle, WA",
+    "neighborhood": "Beacon Hill",
+    "cuisine": "Filipino",
+    "price": null,
+    "description": "Chef Melissa Miranda's homey Filipino spot in a house, with lumpia, adobo ribs and kare kare.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 15)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.580369,
+    "lng": -122.312756,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "la-marea",
+    "name": "La Marea",
+    "address": "936 NW 49th St, Seattle, WA",
+    "neighborhood": "Ballard",
+    "cuisine": "Mexican / Seafood",
+    "price": null,
+    "description": "Coastal Mexican seafood tostadas served casually inside Fair Isle Brewing.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 14)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.664577,
+    "lng": -122.370358,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "atoma",
+    "name": "Atoma",
+    "address": "1411 N 45th St, Seattle, WA",
+    "neighborhood": "Wallingford",
+    "cuisine": "New American",
+    "price": null,
+    "description": "Craftsman-house restaurant by Johnny and Sarah Courtney with inventive Northwest dishes like maitake shawarma.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 13)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.661186,
+    "lng": -122.340077,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "ramie",
+    "name": "Ramie",
+    "address": "1529 14th Ave, Seattle, WA",
+    "neighborhood": "Capitol Hill",
+    "cuisine": "Vietnamese",
+    "price": null,
+    "description": "Siblings Trinh and Thai Nguyen blend Vietnamese dishes with French technique; opened in 2024.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 12)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.614962,
+    "lng": -122.314424,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "bar-del-corso",
+    "name": "Bar del Corso",
+    "address": "3057 Beacon Ave S, Seattle, WA",
+    "neighborhood": "Beacon Hill",
+    "cuisine": "Italian",
+    "price": null,
+    "description": "Jerry Corso's wood-fired pizza and Italian trattoria on Beacon Hill, open 15 years.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 11)",
+        "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+        "date": "2026-11-05"
+      }
+    ],
+    "lat": 47.575431,
+    "lng": -122.309548,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "palace-kitchen",
+    "name": "Palace Kitchen",
+    "address": "2030 5th Ave, Seattle, WA",
+    "neighborhood": "Downtown",
+    "cuisine": "New American",
+    "price": null,
+    "description": "Tom Douglas's long-running downtown spot with a U-shaped bar, a wood-fired hearth and a well-known burger.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 50)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.614524,
+    "lng": -122.340174,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "familyfriend",
+    "name": "familyfriend",
+    "address": "3315 Beacon Ave S, Seattle, WA",
+    "neighborhood": "Beacon Hill",
+    "cuisine": "Guamanian",
+    "price": null,
+    "description": "Playful Guamanian cooking drawing on Spanish, Mexican, Korean and Southeast Asian influences.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 49)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.573578,
+    "lng": -122.309033,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "un-bien-15th-ave-nw",
+    "name": "Un Bien (15th Ave NW)",
+    "address": "7302 15th Ave NW, Seattle, WA",
+    "neighborhood": "Ballard",
+    "cuisine": "Caribbean",
+    "price": null,
+    "description": "Ballard sandwich shop known for citrusy roast pork sandwiches, run by the family behind the original recipe.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 48)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.68157,
+    "lng": -122.376527,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "un-bien-seaview",
+    "name": "Un Bien (Seaview Ave NW)",
+    "address": "6226 Seaview Ave NW, Seattle, WA",
+    "neighborhood": "Ballard",
+    "cuisine": "Caribbean",
+    "price": null,
+    "description": "Second Ballard location of Un Bien.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 48)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.674824,
+    "lng": -122.40613,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "un-bien-queen-anne",
+    "name": "Un Bien (Queen Anne)",
+    "address": "319 W Galer St, Seattle, WA",
+    "neighborhood": "Queen Anne",
+    "cuisine": "Caribbean",
+    "price": null,
+    "description": "Queen Anne location of Un Bien.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 48)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.632204,
+    "lng": -122.361383,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "kilig",
+    "name": "Kilig",
+    "address": "710 8th Ave S, Seattle, WA",
+    "neighborhood": "Chinatown International District",
+    "cuisine": "Filipino",
+    "price": null,
+    "description": "Chef Melissa Miranda's casual Filipino soup-and-noodle spot; the article says it closes Dec. 4, to be replaced by Musangtino's.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 47)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.596501,
+    "lng": -122.322266,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "kobuta-and-ookami",
+    "name": "Kobuta & Ookami",
+    "address": "121 15th Ave E, Seattle, WA",
+    "neighborhood": "Capitol Hill",
+    "cuisine": "Japanese (katsu)",
+    "price": null,
+    "description": "Generous, very crisp katsu made with fresh panko imported from Tokyo.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 46)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.619169,
+    "lng": -122.313102,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "the-little-beast",
+    "name": "The Little Beast",
+    "address": "5107 Ballard Ave NW, Seattle, WA",
+    "neighborhood": "Ballard",
+    "cuisine": "British pub",
+    "price": null,
+    "description": "Meat-focused pub food and dry-aged steaks from a butcher-chef; the article says it closes at the end of 2026.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 45)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.664569,
+    "lng": -122.381275,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "ooink-capitol-hill",
+    "name": "Ooink (Capitol Hill)",
+    "address": "1416 Harvard Ave, Seattle, WA",
+    "neighborhood": "Capitol Hill",
+    "cuisine": "Japanese (ramen)",
+    "price": null,
+    "description": "Tonkotsu ramen with housemade noodles and a rich pork broth.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 44)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.613923,
+    "lng": -122.32127,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "ooink-fremont",
+    "name": "Ooink (Fremont)",
+    "address": "3630 Stone Way N, Seattle, WA",
+    "neighborhood": "Fremont",
+    "cuisine": "Japanese (ramen)",
+    "price": null,
+    "description": "Fremont location of Ooink.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 44)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.65158,
+    "lng": -122.342366,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "upwell-wine-and-coffee",
+    "name": "Upwell Wine & Coffee",
+    "address": "4811 California Ave SW, Seattle, WA",
+    "neighborhood": "West Seattle",
+    "cuisine": "New American",
+    "price": null,
+    "description": "Cafe and wine shop with a serious seasonal dinner menu and a relaxed wine list.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 43)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.558689,
+    "lng": -122.387066,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "pho-bac-sup-shop",
+    "name": "Phở Bắc Súp Shop",
+    "address": "1240 S Jackson St, Seattle, WA",
+    "neighborhood": "Chinatown International District",
+    "cuisine": "Vietnamese",
+    "price": null,
+    "description": "The Phạm family's plant-filled pho shop, known for short rib pho and pho fries.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 42)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.599479,
+    "lng": -122.315383,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "gold-coast-kitchen",
+    "name": "Gold Coast Kitchen",
+    "address": "1009 Boren Ave, Seattle, WA",
+    "neighborhood": "First Hill",
+    "cuisine": "West African",
+    "price": null,
+    "description": "Chef Tina Fahnbulleh's West African cooking with goat peanut soup, hand-pies and jollof rice.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 41)",
+        "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+        "date": "2026-11-02"
+      }
+    ],
+    "lat": 47.609539,
+    "lng": -122.325541,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "iconiq",
+    "name": "Iconiq",
+    "address": "1421 31st Ave S, Seattle, WA",
+    "neighborhood": "Mt. Baker",
+    "cuisine": "French / Japanese",
+    "price": null,
+    "description": "Chef Toshiyuki Kawai's seasonal Japanese-French menu with a downtown sunset view.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 40)",
+        "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+        "date": "2026-11-03"
+      }
+    ],
+    "lat": 47.589743,
+    "lng": -122.292677,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "cafe-munir",
+    "name": "Cafe Munir",
+    "address": "2408 NW 80th St, Seattle, WA",
+    "neighborhood": "Ballard",
+    "cuisine": "Arabic",
+    "price": null,
+    "description": "Low-key Ballard meze spot since 2012, known for sizzling hummus with spiced lamb.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 39)",
+        "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+        "date": "2026-11-03"
+      }
+    ],
+    "lat": 47.686919,
+    "lng": -122.387962,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "taurus-ox",
+    "name": "Taurus Ox",
+    "address": "903 19th Ave E, Seattle, WA",
+    "neighborhood": "Capitol Hill",
+    "cuisine": "Laotian",
+    "price": null,
+    "description": "Lao flavors in a pretty Capitol Hill room, with Lao sausage and the Lao burger.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 38)",
+        "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+        "date": "2026-11-03"
+      }
+    ],
+    "lat": 47.627044,
+    "lng": -122.307517,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "my-friend-dereks",
+    "name": "My Friend Derek's",
+    "address": "2108 N 55th St, Seattle, WA",
+    "neighborhood": "Tangletown",
+    "cuisine": "Pizza",
+    "price": null,
+    "description": "Detroit-style pizza that grew from a home-oven pop-up into a pizzeria near Green Lake.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 37)",
+        "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+        "date": "2026-11-03"
+      }
+    ],
+    "lat": 47.668809,
+    "lng": -122.333408,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "stevies-famous-beacon-hill",
+    "name": "Stevie's Famous (Beacon Hill)",
+    "address": "4864 Beacon Ave S, Seattle, WA",
+    "neighborhood": "Beacon Hill",
+    "cuisine": "Pizza",
+    "price": null,
+    "description": "Sourdough-crust New York-style pies, inside Clock-Out Lounge.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 36)",
+        "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+        "date": "2026-11-03"
+      }
+    ],
+    "lat": 47.559051,
+    "lng": -122.30374,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "stevies-famous-phinney-ridge",
+    "name": "Stevie's Famous (Phinney Ridge)",
+    "address": "6000 Phinney Ave N, Seattle, WA",
+    "neighborhood": "Phinney Ridge",
+    "cuisine": "Pizza",
+    "price": null,
+    "description": "Phinney Ridge location of Stevie's Famous, open since August.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 36)",
+        "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+        "date": "2026-11-03"
+      }
+    ],
+    "lat": 47.672611,
+    "lng": -122.354079,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "bar-bayonne",
+    "name": "Bar Bayonne",
+    "address": "1315 E Jefferson St, Seattle, WA",
+    "neighborhood": "Central District",
+    "cuisine": "French / Spanish",
+    "price": null,
+    "description": "Basque-inspired all-day wine bar and cafe, 21+, no reservations.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 35)",
+        "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+        "date": "2026-11-03"
+      }
+    ],
+    "lat": 47.606068,
+    "lng": -122.314839,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "triangle-spirits",
+    "name": "Triangle Spirits",
+    "address": "3507 Fremont Pl N, Seattle, WA",
+    "neighborhood": "Fremont",
+    "cuisine": "Fried chicken / Bar food",
+    "price": null,
+    "description": "Fremont dive bar with brined, spice-dredged fried chicken and a patty melt; 21+.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 34)",
+        "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+        "date": "2026-11-03"
+      }
+    ],
+    "lat": 47.650815,
+    "lng": -122.350833,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "three-sacks-full",
+    "name": "Three Sacks Full",
+    "address": "918 NE 64th St, Seattle, WA",
+    "neighborhood": "Roosevelt",
+    "cuisine": "New American",
+    "price": null,
+    "description": "Small Roosevelt neighborhood restaurant with a changing seasonal menu and good wine list.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 33)",
+        "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+        "date": "2026-11-03"
+      }
+    ],
+    "lat": 47.675155,
+    "lng": -122.317797,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "good-voyage",
+    "name": "Good Voyage",
+    "address": "8520 14th Ave S, Seattle, WA",
+    "neighborhood": "South Park",
+    "cuisine": "French",
+    "price": null,
+    "description": "South Park French cafe focused on whole-duck cooking.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 32)",
+        "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+        "date": "2026-11-03"
+      }
+    ],
+    "lat": 47.526733,
+    "lng": -122.314565,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "the-metropolitan-grill",
+    "name": "The Metropolitan Grill",
+    "address": "820 2nd Ave, Seattle, WA",
+    "neighborhood": "Downtown",
+    "cuisine": "Steakhouse",
+    "price": null,
+    "description": "Old-school downtown steakhouse with velvet booths and mesquite-grilled, dry-aged beef.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 31)",
+        "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+        "date": "2026-11-03"
+      }
+    ],
+    "lat": 47.604426,
+    "lng": -122.334189,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "e-jae-pak-mor",
+    "name": "E-Jae Pak Mor",
+    "address": "504 5th Ave S, Seattle, WA",
+    "neighborhood": "Chinatown International District",
+    "cuisine": "Thai",
+    "price": null,
+    "description": "Counter-service Thai street food, known for fresh rice-flour pak mor dumplings.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 30)",
+        "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+        "date": "2026-11-04"
+      }
+    ],
+    "lat": 47.59833,
+    "lng": -122.327365,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "how-to-cook-a-wolf",
+    "name": "How to Cook a Wolf",
+    "address": "2208 Queen Anne Ave N, Seattle, WA",
+    "neighborhood": "Queen Anne",
+    "cuisine": "Italian",
+    "price": null,
+    "description": "Queen Anne pasta restaurant in a curved, wood-wrapped room, open since 2007.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 29)",
+        "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+        "date": "2026-11-04"
+      }
+    ],
+    "lat": 47.63871,
+    "lng": -122.356736,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "sushi-kappo-tamura",
+    "name": "Sushi Kappo Tamura",
+    "address": "2968 Eastlake Ave E, Seattle, WA",
+    "neighborhood": "Eastlake",
+    "cuisine": "Sushi",
+    "price": null,
+    "description": "Omakase from a Shiro Kashiba protege, featuring wild salmon and black cod belly.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 28)",
+        "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+        "date": "2026-11-04"
+      }
+    ],
+    "lat": 47.648575,
+    "lng": -122.323358,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "the-wayland-mill",
+    "name": "The Wayland Mill",
+    "address": "3800 Latona Ave NE, Seattle, WA",
+    "neighborhood": "Wallingford",
+    "cuisine": "Japanese American",
+    "price": null,
+    "description": "All-day cafe near Gas Works mixing diner classics with Japanese flavors.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 27)",
+        "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+        "date": "2026-11-04"
+      }
+    ],
+    "lat": 47.654594,
+    "lng": -122.3254,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "azuki",
+    "name": "Azuki",
+    "address": "2711 E Madison St, Seattle, WA",
+    "neighborhood": "Madison Valley",
+    "cuisine": "Japanese",
+    "price": null,
+    "description": "Handmade udon in dashi broth in Madison Valley.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 26)",
+        "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+        "date": "2026-11-04"
+      }
+    ],
+    "lat": 47.622727,
+    "lng": -122.297013,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "canlis",
+    "name": "Canlis",
+    "address": "2576 Aurora Ave N, Seattle, WA",
+    "neighborhood": "Queen Anne",
+    "cuisine": "New American",
+    "price": null,
+    "description": "Seattle fine-dining institution with a Lake Union view and a more casual cocktail lounge.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 25)",
+        "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+        "date": "2026-11-04"
+      }
+    ],
+    "lat": 47.643053,
+    "lng": -122.346736,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "artusi",
+    "name": "Artusi",
+    "address": "1535 14th Ave, Seattle, WA",
+    "neighborhood": "Capitol Hill",
+    "cuisine": "Italian",
+    "price": null,
+    "description": "Livelier sibling of Spinasse sharing its pasta kitchen, with a Sunday-Monday pasta deal.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 24)",
+        "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+        "date": "2026-11-04"
+      }
+    ],
+    "lat": 47.615173,
+    "lng": -122.314397,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "the-walrus-and-the-carpenter",
+    "name": "The Walrus and The Carpenter",
+    "address": "4743 Ballard Ave NW, Seattle, WA",
+    "neighborhood": "Ballard",
+    "cuisine": "Seafood",
+    "price": null,
+    "description": "Renee Erickson's Ballard oyster bar, no reservations.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 23)",
+        "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+        "date": "2026-11-04"
+      }
+    ],
+    "lat": 47.663607,
+    "lng": -122.380137,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "the-harvest-vine",
+    "name": "The Harvest Vine",
+    "address": "2701 E Madison St, Seattle, WA",
+    "neighborhood": "Madison Valley",
+    "cuisine": "Spanish",
+    "price": null,
+    "description": "Basque and Spanish cooking in Madison Valley since 1998.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 22)",
+        "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+        "date": "2026-11-04"
+      }
+    ],
+    "lat": 47.622571,
+    "lng": -122.297239,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "l-oursin",
+    "name": "L'Oursin",
+    "address": "1315 E Jefferson St, Seattle, WA",
+    "neighborhood": "Central District",
+    "cuisine": "French",
+    "price": null,
+    "description": "French bistro with a strong cocktail program, seafood and charcuterie.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 21)",
+        "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+        "date": "2026-11-04"
+      }
+    ],
+    "lat": 47.606068,
+    "lng": -122.314839,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "paju",
+    "name": "Paju",
+    "address": "513 Westlake Ave N, Seattle, WA",
+    "neighborhood": "South Lake Union",
+    "cuisine": "Modern Korean",
+    "price": null,
+    "description": "Chef Bill Jeong's fine-dining Korean restaurant built around a wood-fired hearth.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 10)",
+        "title": "Seattle's 50 Essential Restaurants: Paju is No. 10",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-50-essential-restaurants-paju-is-no-10/",
+        "date": "2026-11-06"
+      }
+    ],
+    "lat": 47.623807,
+    "lng": -122.33868,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "le-caviste",
+    "name": "Le Caviste",
+    "address": "1919 7th Ave, Seattle, WA",
+    "neighborhood": "Downtown",
+    "cuisine": "French",
+    "price": null,
+    "description": "Standing-room French wine bar with a French-language menu and a big by-the-glass list.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 9)",
+        "title": "Seattle's 50 Essential Restaurants: Le Caviste is No. 9",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-50-essential-restaurants-le-caviste-is-no-9/",
+        "date": "2026-11-06"
+      }
+    ],
+    "lat": 47.614709,
+    "lng": -122.337146,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "monsoon",
+    "name": "Monsoon",
+    "address": "615 19th Ave E, Seattle, WA",
+    "neighborhood": "Capitol Hill",
+    "cuisine": "Vietnamese",
+    "price": null,
+    "description": "Siblings Sophie and Eric Banh's long-running neo-Vietnamese bistro with a catfish claypot.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 8)",
+        "title": "Seattle's 50 Essential Restaurants: Monsoon is No. 8",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-50-essential-restaurants-monsoon-is-no-8/",
+        "date": "2026-11-07"
+      }
+    ],
+    "lat": 47.624934,
+    "lng": -122.307602,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "tomo",
+    "name": "Tomo",
+    "address": "9811 16th Ave SW, Seattle, WA",
+    "neighborhood": "White Center",
+    "cuisine": "Japanese American",
+    "price": null,
+    "description": "Chef Brady Ishiwata Williams's White Center spot with steam burgers, crab rice and kakigori.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 7)",
+        "title": "Seattle's 50 Essential Restaurants: Tomo is No. 7",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-50-essential-restaurants-tomo-is-no-7/",
+        "date": "2026-11-07"
+      }
+    ],
+    "lat": 47.51521,
+    "lng": -122.355376,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "ltd-edition-sushi",
+    "name": "Ltd Edition Sushi",
+    "address": "1641 Nagle Pl, Seattle, WA",
+    "neighborhood": "Capitol Hill",
+    "cuisine": "Sushi",
+    "price": null,
+    "description": "Intimate Edomae-style omakase counter by Cal Anderson Park.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 6)",
+        "title": "Seattle's 50 Essential Restaurants: Ltd Edition Sushi is No. 6",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-50-essential-restaurants-ltd-edition-sushi-is-no-6/",
+        "date": "2026-11-08"
+      }
+    ],
+    "lat": 47.61591,
+    "lng": -122.320201,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "archipelago",
+    "name": "Archipelago",
+    "address": "5607 Rainier Ave S, Seattle, WA",
+    "neighborhood": "Hillman City",
+    "cuisine": "Filipino",
+    "price": null,
+    "description": "Long tasting menu telling Seattle's Filipino story; closed for remodel, aiming to reopen this winter.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 5)",
+        "title": "Seattle's 50 Essential Restaurants: Archipelago is No. 5",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-50-essential-restaurants-archipelago-is-no-5/",
+        "date": "2026-11-09"
+      }
+    ],
+    "lat": 47.551693,
+    "lng": -122.278219,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "spinasse",
+    "name": "Spinasse",
+    "address": "1531 14th Ave, Seattle, WA",
+    "neighborhood": "Capitol Hill",
+    "cuisine": "Italian",
+    "price": null,
+    "description": "Piedmontese fine dining since 2008, known for its tajarin pasta with butter and sage.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 4)",
+        "title": "Seattle's 50 Essential Restaurants: Spinasse is No. 4",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-50-essential-restaurants-spinasse-is-no-4/",
+        "date": "2026-11-10"
+      }
+    ],
+    "lat": 47.615059,
+    "lng": -122.314399,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "off-alley",
+    "name": "Off Alley",
+    "address": "4903 Rainier Ave S, Seattle, WA",
+    "neighborhood": "Columbia City",
+    "cuisine": "Seasonal PNW",
+    "price": null,
+    "description": "Twelve-seat nose-to-tail Pacific Northwest restaurant by chef Evan Leichtling.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 3)",
+        "title": "Seattle's 50 Essential Restaurants: Off Alley is No. 3",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-50-essential-restaurants-off-alley-is-no-3/",
+        "date": "2026-11-11"
+      }
+    ],
+    "lat": 47.557716,
+    "lng": -122.285173,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "local-tide",
+    "name": "Local Tide",
+    "address": "401 N 36th St, Seattle, WA",
+    "neighborhood": "Fremont",
+    "cuisine": "Seafood",
+    "price": null,
+    "description": "Counter-service local seafood in Fremont; shrimp toast is the signature.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 2)",
+        "title": "Seattle's 50 Essential Restaurants: Local Tide is No. 2",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-50-essential-restaurants-local-tide-is-no-2/",
+        "date": "2026-11-12"
+      }
+    ],
+    "lat": 47.651897,
+    "lng": -122.354115,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  },
+  {
+    "id": "pancita",
+    "name": "Pancita",
+    "address": "5501 30th Ave NE, Seattle, WA",
+    "neighborhood": "Ravenna",
+    "cuisine": "Mexican",
+    "price": null,
+    "description": "Janet Becerra's masa-focused Mexican restaurant in Ravenna.",
+    "sources": [
+      {
+        "list": "Seattle's 50 Essential Restaurants (No. 1)",
+        "title": "Seattle's 50 Essential Restaurants: Pancita is No. 1",
+        "url": "https://www.seattletimes.com/life/food-drink/seattles-50-essential-restaurants-pancita-is-no-1/",
+        "date": "2026-11-13"
+      }
+    ],
+    "lat": 47.668636,
+    "lng": -122.295215,
+    "geo": {
+      "confidence": "high",
+      "source": "nominatim"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+# Seattle Times pages/PDFs you drop here are source material, never published
+inbox/*
+!inbox/.gitkeep
+# backups and scratch copies
+*.bak
+*.prev
+*.partial
+*.zip
+# OS / Python noise
+.DS_Store
+__pycache__/
+data/review.csv
