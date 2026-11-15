@@ -33,6 +33,7 @@ Static site: `index.html` + `restaurants.js` (generated). Leaflet from cdnjs, Op
 {
   "id": "canlis-queen-anne",
   "name": "Canlis",
+  "rank": 25,
   "address": "2576 Aurora Ave N, Seattle, WA",
   "neighborhood": "Queen Anne",
   "cuisine": "Pacific Northwest",

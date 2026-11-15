@@ -3,6 +3,7 @@ const RESTAURANTS = [
  {
   "id": "archipelago",
   "name": "Archipelago",
+  "rank": 5,
   "address": "5607 Rainier Ave S, Seattle, WA",
   "neighborhood": "Hillman City",
   "cuisine": "Filipino",
@@ -17,8 +18,8 @@ const RESTAURANTS = [
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 5)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-archipelago",
     "date": "2026-11-14"
    }
   ],
@@ -28,6 +29,7 @@ const RESTAURANTS = [
  {
   "id": "artusi",
   "name": "Artusi",
+  "rank": 24,
   "address": "1535 14th Ave, Seattle, WA",
   "neighborhood": "Capitol Hill",
   "cuisine": "Italian",
@@ -36,15 +38,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 24)",
-    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
-    "date": "2026-11-04"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-artusi",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 24)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+    "date": "2026-11-04"
    }
   ],
   "lat": 47.615173,
@@ -53,6 +55,7 @@ const RESTAURANTS = [
  {
   "id": "atoma",
   "name": "Atoma",
+  "rank": 13,
   "address": "1411 N 45th St, Seattle, WA",
   "neighborhood": "Wallingford",
   "cuisine": "New American",
@@ -61,15 +64,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 13)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-atoma",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 13)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.661186,
@@ -78,6 +81,7 @@ const RESTAURANTS = [
  {
   "id": "azuki",
   "name": "Azuki",
+  "rank": 26,
   "address": "2711 E Madison St, Seattle, WA",
   "neighborhood": "Madison Valley",
   "cuisine": "Japanese",
@@ -86,15 +90,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 26)",
-    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
-    "date": "2026-11-04"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-azuki",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 26)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+    "date": "2026-11-04"
    }
   ],
   "lat": 47.622727,
@@ -103,6 +107,7 @@ const RESTAURANTS = [
  {
   "id": "ba-bar-central-district",
   "name": "Ba Bar (Central District)",
+  "rank": 16,
   "address": "550 12th Ave, Seattle, WA",
   "neighborhood": "Central District",
   "cuisine": "Vietnamese",
@@ -111,15 +116,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 16)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-ba-bar",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 16)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.607011,
@@ -128,6 +133,7 @@ const RESTAURANTS = [
  {
   "id": "ba-bar-south-lake-union",
   "name": "Ba Bar (South Lake Union)",
+  "rank": 16,
   "address": "500 Terry Ave N, Seattle, WA",
   "neighborhood": "South Lake Union",
   "cuisine": "Vietnamese",
@@ -136,15 +142,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 16)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-ba-bar",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 16)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.623384,
@@ -153,6 +159,7 @@ const RESTAURANTS = [
  {
   "id": "ba-bar-university-village",
   "name": "Ba Bar (University Village)",
+  "rank": 16,
   "address": "2685 NE 46th St, Seattle, WA",
   "neighborhood": "University Village",
   "cuisine": "Vietnamese",
@@ -161,15 +168,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 16)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-ba-bar",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 16)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.661635,
@@ -178,6 +185,7 @@ const RESTAURANTS = [
  {
   "id": "bar-bayonne",
   "name": "Bar Bayonne",
+  "rank": 35,
   "address": "1315 E Jefferson St, Seattle, WA",
   "neighborhood": "Central District",
   "cuisine": "French / Spanish",
@@ -186,15 +194,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 35)",
-    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
-    "date": "2026-11-03"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-bar-bayonne",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 35)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+    "date": "2026-11-03"
    }
   ],
   "lat": 47.606068,
@@ -203,6 +211,7 @@ const RESTAURANTS = [
  {
   "id": "bar-del-corso",
   "name": "Bar del Corso",
+  "rank": 11,
   "address": "3057 Beacon Ave S, Seattle, WA",
   "neighborhood": "Beacon Hill",
   "cuisine": "Italian",
@@ -211,15 +220,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 11)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-bar-del-corso",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 11)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.575431,
@@ -228,6 +237,7 @@ const RESTAURANTS = [
  {
   "id": "cafe-munir",
   "name": "Cafe Munir",
+  "rank": 39,
   "address": "2408 NW 80th St, Seattle, WA",
   "neighborhood": "Ballard",
   "cuisine": "Arabic",
@@ -236,15 +246,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 39)",
-    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
-    "date": "2026-11-03"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-cafe-munir",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 39)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+    "date": "2026-11-03"
    }
   ],
   "lat": 47.686919,
@@ -253,6 +263,7 @@ const RESTAURANTS = [
  {
   "id": "canlis",
   "name": "Canlis",
+  "rank": 25,
   "address": "2576 Aurora Ave N, Seattle, WA",
   "neighborhood": "Queen Anne",
   "cuisine": "New American",
@@ -261,15 +272,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 25)",
-    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
-    "date": "2026-11-04"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-canlis",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 25)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+    "date": "2026-11-04"
    }
   ],
   "lat": 47.643053,
@@ -278,6 +289,7 @@ const RESTAURANTS = [
  {
   "id": "communion",
   "name": "Communion",
+  "rank": 18,
   "address": "2350 E Union St, Seattle, WA",
   "neighborhood": "Central District",
   "cuisine": "Seattle Soul",
@@ -286,15 +298,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 18)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-communion",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 18)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.613127,
@@ -303,6 +315,7 @@ const RESTAURANTS = [
  {
   "id": "e-jae-pak-mor",
   "name": "E-Jae Pak Mor",
+  "rank": 30,
   "address": "504 5th Ave S, Seattle, WA",
   "neighborhood": "Chinatown International District",
   "cuisine": "Thai",
@@ -311,15 +324,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 30)",
-    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
-    "date": "2026-11-04"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-e-jae-pak-mor",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 30)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+    "date": "2026-11-04"
    }
   ],
   "lat": 47.59833,
@@ -328,6 +341,7 @@ const RESTAURANTS = [
  {
   "id": "familyfriend",
   "name": "familyfriend",
+  "rank": 49,
   "address": "3315 Beacon Ave S, Seattle, WA",
   "neighborhood": "Beacon Hill",
   "cuisine": "Guamanian",
@@ -336,15 +350,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 49)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-familyfriend",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 49)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.573578,
@@ -353,6 +367,7 @@ const RESTAURANTS = [
  {
   "id": "gold-coast-kitchen",
   "name": "Gold Coast Kitchen",
+  "rank": 41,
   "address": "1009 Boren Ave, Seattle, WA",
   "neighborhood": "First Hill",
   "cuisine": "West African",
@@ -361,15 +376,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 41)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-gold-coast-kitchen",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 41)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.609539,
@@ -378,6 +393,7 @@ const RESTAURANTS = [
  {
   "id": "good-voyage",
   "name": "Good Voyage",
+  "rank": 32,
   "address": "8520 14th Ave S, Seattle, WA",
   "neighborhood": "South Park",
   "cuisine": "French",
@@ -386,15 +402,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 32)",
-    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
-    "date": "2026-11-03"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-good-voyage",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 32)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+    "date": "2026-11-03"
    }
   ],
   "lat": 47.526733,
@@ -403,6 +419,7 @@ const RESTAURANTS = [
  {
   "id": "hamdi",
   "name": "Hamdi",
+  "rank": 20,
   "address": "4012 NW Leary Way, Seattle, WA",
   "neighborhood": "Fremont",
   "cuisine": "Turkish",
@@ -411,15 +428,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 20)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-hamdi",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 20)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.6565406,
@@ -428,6 +445,7 @@ const RESTAURANTS = [
  {
   "id": "how-to-cook-a-wolf",
   "name": "How to Cook a Wolf",
+  "rank": 29,
   "address": "2208 Queen Anne Ave N, Seattle, WA",
   "neighborhood": "Queen Anne",
   "cuisine": "Italian",
@@ -436,15 +454,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 29)",
-    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
-    "date": "2026-11-04"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-how-to-cook-a-wolf",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 29)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+    "date": "2026-11-04"
    }
   ],
   "lat": 47.63871,
@@ -453,6 +471,7 @@ const RESTAURANTS = [
  {
   "id": "iconiq",
   "name": "Iconiq",
+  "rank": 40,
   "address": "1421 31st Ave S, Seattle, WA",
   "neighborhood": "Mt. Baker",
   "cuisine": "French / Japanese",
@@ -461,15 +480,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 40)",
-    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
-    "date": "2026-11-03"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-iconiq",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 40)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+    "date": "2026-11-03"
    }
   ],
   "lat": 47.589743,
@@ -478,6 +497,7 @@ const RESTAURANTS = [
  {
   "id": "joule",
   "name": "Joule",
+  "rank": 17,
   "address": "3506 Stone Way N, Seattle, WA",
   "neighborhood": "Fremont",
   "cuisine": "Modern Korean",
@@ -486,15 +506,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 17)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-joule",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 17)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.649725,
@@ -503,6 +523,7 @@ const RESTAURANTS = [
  {
   "id": "kilig",
   "name": "Kilig",
+  "rank": 47,
   "address": "710 8th Ave S, Seattle, WA",
   "neighborhood": "Chinatown International District",
   "cuisine": "Filipino",
@@ -511,15 +532,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 47)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-kilig",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 47)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.596501,
@@ -528,6 +549,7 @@ const RESTAURANTS = [
  {
   "id": "kobuta-and-ookami",
   "name": "Kobuta & Ookami",
+  "rank": 46,
   "address": "121 15th Ave E, Seattle, WA",
   "neighborhood": "Capitol Hill",
   "cuisine": "Japanese (katsu)",
@@ -536,15 +558,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 46)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-kobuta-ookami",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 46)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.619169,
@@ -553,6 +575,7 @@ const RESTAURANTS = [
  {
   "id": "l-oursin",
   "name": "L'Oursin",
+  "rank": 21,
   "address": "1315 E Jefferson St, Seattle, WA",
   "neighborhood": "Central District",
   "cuisine": "French",
@@ -561,15 +584,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 21)",
-    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
-    "date": "2026-11-04"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-l-oursin",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 21)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+    "date": "2026-11-04"
    }
   ],
   "lat": 47.606068,
@@ -578,6 +601,7 @@ const RESTAURANTS = [
  {
   "id": "la-marea",
   "name": "La Marea",
+  "rank": 14,
   "address": "936 NW 49th St, Seattle, WA",
   "neighborhood": "Ballard",
   "cuisine": "Mexican / Seafood",
@@ -586,15 +610,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 14)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-la-marea",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 14)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.664577,
@@ -603,6 +627,7 @@ const RESTAURANTS = [
  {
   "id": "le-caviste",
   "name": "Le Caviste",
+  "rank": 9,
   "address": "1919 7th Ave, Seattle, WA",
   "neighborhood": "Downtown",
   "cuisine": "French",
@@ -617,8 +642,8 @@ const RESTAURANTS = [
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 9)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-le-caviste",
     "date": "2026-11-14"
    }
   ],
@@ -628,6 +653,7 @@ const RESTAURANTS = [
  {
   "id": "le-pichet",
   "name": "Le Pichet",
+  "rank": 19,
   "address": "1933 1st Ave, Seattle, WA",
   "neighborhood": "Downtown",
   "cuisine": "French",
@@ -636,15 +662,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 19)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-le-pichet",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 19)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.610807,
@@ -653,6 +679,7 @@ const RESTAURANTS = [
  {
   "id": "local-tide",
   "name": "Local Tide",
+  "rank": 2,
   "address": "401 N 36th St, Seattle, WA",
   "neighborhood": "Fremont",
   "cuisine": "Seafood",
@@ -667,8 +694,8 @@ const RESTAURANTS = [
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 2)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-local-tide",
     "date": "2026-11-14"
    }
   ],
@@ -678,6 +705,7 @@ const RESTAURANTS = [
  {
   "id": "ltd-edition-sushi",
   "name": "Ltd Edition Sushi",
+  "rank": 6,
   "address": "1641 Nagle Pl, Seattle, WA",
   "neighborhood": "Capitol Hill",
   "cuisine": "Sushi",
@@ -692,8 +720,8 @@ const RESTAURANTS = [
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 6)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-ltd-edition-sushi",
     "date": "2026-11-14"
    }
   ],
@@ -703,6 +731,7 @@ const RESTAURANTS = [
  {
   "id": "monsoon",
   "name": "Monsoon",
+  "rank": 8,
   "address": "615 19th Ave E, Seattle, WA",
   "neighborhood": "Capitol Hill",
   "cuisine": "Vietnamese",
@@ -717,8 +746,8 @@ const RESTAURANTS = [
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 8)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-monsoon",
     "date": "2026-11-14"
    }
   ],
@@ -728,6 +757,7 @@ const RESTAURANTS = [
  {
   "id": "musang",
   "name": "Musang",
+  "rank": 15,
   "address": "2524 Beacon Ave S, Seattle, WA",
   "neighborhood": "Beacon Hill",
   "cuisine": "Filipino",
@@ -736,15 +766,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 15)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-musang",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 15)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.580369,
@@ -753,6 +783,7 @@ const RESTAURANTS = [
  {
   "id": "my-friend-dereks",
   "name": "My Friend Derek's",
+  "rank": 37,
   "address": "2108 N 55th St, Seattle, WA",
   "neighborhood": "Tangletown",
   "cuisine": "Pizza",
@@ -761,15 +792,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 37)",
-    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
-    "date": "2026-11-03"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-my-friend-derek-s",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 37)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+    "date": "2026-11-03"
    }
   ],
   "lat": 47.668809,
@@ -778,6 +809,7 @@ const RESTAURANTS = [
  {
   "id": "off-alley",
   "name": "Off Alley",
+  "rank": 3,
   "address": "4903 Rainier Ave S, Seattle, WA",
   "neighborhood": "Columbia City",
   "cuisine": "Seasonal PNW",
@@ -792,8 +824,8 @@ const RESTAURANTS = [
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 3)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-off-alley",
     "date": "2026-11-14"
    }
   ],
@@ -803,6 +835,7 @@ const RESTAURANTS = [
  {
   "id": "ooink-capitol-hill",
   "name": "Ooink (Capitol Hill)",
+  "rank": 44,
   "address": "1416 Harvard Ave, Seattle, WA",
   "neighborhood": "Capitol Hill",
   "cuisine": "Japanese (ramen)",
@@ -811,15 +844,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 44)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-ooink",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 44)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.613923,
@@ -828,6 +861,7 @@ const RESTAURANTS = [
  {
   "id": "ooink-fremont",
   "name": "Ooink (Fremont)",
+  "rank": 44,
   "address": "3630 Stone Way N, Seattle, WA",
   "neighborhood": "Fremont",
   "cuisine": "Japanese (ramen)",
@@ -836,15 +870,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 44)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-ooink",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 44)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.65158,
@@ -853,6 +887,7 @@ const RESTAURANTS = [
  {
   "id": "paju",
   "name": "Paju",
+  "rank": 10,
   "address": "513 Westlake Ave N, Seattle, WA",
   "neighborhood": "South Lake Union",
   "cuisine": "Modern Korean",
@@ -867,8 +902,8 @@ const RESTAURANTS = [
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 10)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-paju",
     "date": "2026-11-14"
    }
   ],
@@ -878,6 +913,7 @@ const RESTAURANTS = [
  {
   "id": "palace-kitchen",
   "name": "Palace Kitchen",
+  "rank": 50,
   "address": "2030 5th Ave, Seattle, WA",
   "neighborhood": "Downtown",
   "cuisine": "New American",
@@ -886,15 +922,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 50)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-palace-kitchen",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 50)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.614524,
@@ -903,6 +939,7 @@ const RESTAURANTS = [
  {
   "id": "pancita",
   "name": "Pancita",
+  "rank": 1,
   "address": "5501 30th Ave NE, Seattle, WA",
   "neighborhood": "Ravenna",
   "cuisine": "Mexican",
@@ -917,8 +954,8 @@ const RESTAURANTS = [
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 1)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-pancita",
     "date": "2026-11-14"
    }
   ],
@@ -928,6 +965,7 @@ const RESTAURANTS = [
  {
   "id": "pho-bac-sup-shop",
   "name": "Phở Bắc Súp Shop",
+  "rank": 42,
   "address": "1240 S Jackson St, Seattle, WA",
   "neighborhood": "Chinatown International District",
   "cuisine": "Vietnamese",
@@ -936,15 +974,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 42)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-pho-bac-sup-shop",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 42)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.599479,
@@ -953,6 +991,7 @@ const RESTAURANTS = [
  {
   "id": "ramie",
   "name": "Ramie",
+  "rank": 12,
   "address": "1529 14th Ave, Seattle, WA",
   "neighborhood": "Capitol Hill",
   "cuisine": "Vietnamese",
@@ -961,15 +1000,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 12)",
-    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
-    "date": "2026-11-05"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-ramie",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 12)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 20 to 11 in our list of essential spots",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-20-to-11-in-our-list-of-essential-spots/",
+    "date": "2026-11-05"
    }
   ],
   "lat": 47.614962,
@@ -978,6 +1017,7 @@ const RESTAURANTS = [
  {
   "id": "spinasse",
   "name": "Spinasse",
+  "rank": 4,
   "address": "1531 14th Ave, Seattle, WA",
   "neighborhood": "Capitol Hill",
   "cuisine": "Italian",
@@ -992,8 +1032,8 @@ const RESTAURANTS = [
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 4)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-spinasse",
     "date": "2026-11-14"
    }
   ],
@@ -1003,6 +1043,7 @@ const RESTAURANTS = [
  {
   "id": "stevies-famous-beacon-hill",
   "name": "Stevie's Famous (Beacon Hill)",
+  "rank": 36,
   "address": "4864 Beacon Ave S, Seattle, WA",
   "neighborhood": "Beacon Hill",
   "cuisine": "Pizza",
@@ -1011,15 +1052,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 36)",
-    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
-    "date": "2026-11-03"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-stevie-s-famous",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 36)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+    "date": "2026-11-03"
    }
   ],
   "lat": 47.559051,
@@ -1028,6 +1069,7 @@ const RESTAURANTS = [
  {
   "id": "stevies-famous-phinney-ridge",
   "name": "Stevie's Famous (Phinney Ridge)",
+  "rank": 36,
   "address": "6000 Phinney Ave N, Seattle, WA",
   "neighborhood": "Phinney Ridge",
   "cuisine": "Pizza",
@@ -1036,15 +1078,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 36)",
-    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
-    "date": "2026-11-03"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-stevie-s-famous",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 36)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+    "date": "2026-11-03"
    }
   ],
   "lat": 47.672611,
@@ -1053,6 +1095,7 @@ const RESTAURANTS = [
  {
   "id": "sushi-kappo-tamura",
   "name": "Sushi Kappo Tamura",
+  "rank": 28,
   "address": "2968 Eastlake Ave E, Seattle, WA",
   "neighborhood": "Eastlake",
   "cuisine": "Sushi",
@@ -1061,15 +1104,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 28)",
-    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
-    "date": "2026-11-04"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-sushi-kappo-tamura",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 28)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+    "date": "2026-11-04"
    }
   ],
   "lat": 47.648575,
@@ -1078,6 +1121,7 @@ const RESTAURANTS = [
  {
   "id": "taurus-ox",
   "name": "Taurus Ox",
+  "rank": 38,
   "address": "903 19th Ave E, Seattle, WA",
   "neighborhood": "Capitol Hill",
   "cuisine": "Laotian",
@@ -1086,15 +1130,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 38)",
-    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
-    "date": "2026-11-03"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-taurus-ox",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 38)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+    "date": "2026-11-03"
    }
   ],
   "lat": 47.627044,
@@ -1103,6 +1147,7 @@ const RESTAURANTS = [
  {
   "id": "the-harvest-vine",
   "name": "The Harvest Vine",
+  "rank": 22,
   "address": "2701 E Madison St, Seattle, WA",
   "neighborhood": "Madison Valley",
   "cuisine": "Spanish",
@@ -1111,15 +1156,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 22)",
-    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
-    "date": "2026-11-04"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-the-harvest-vine",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 22)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+    "date": "2026-11-04"
    }
   ],
   "lat": 47.622571,
@@ -1128,6 +1173,7 @@ const RESTAURANTS = [
  {
   "id": "the-little-beast",
   "name": "The Little Beast",
+  "rank": 45,
   "address": "5107 Ballard Ave NW, Seattle, WA",
   "neighborhood": "Ballard",
   "cuisine": "British pub",
@@ -1136,15 +1182,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 45)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-the-little-beast",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 45)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.664569,
@@ -1153,6 +1199,7 @@ const RESTAURANTS = [
  {
   "id": "the-metropolitan-grill",
   "name": "The Metropolitan Grill",
+  "rank": 31,
   "address": "820 2nd Ave, Seattle, WA",
   "neighborhood": "Downtown",
   "cuisine": "Steakhouse",
@@ -1161,15 +1208,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 31)",
-    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
-    "date": "2026-11-03"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-the-metropolitan-grill",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 31)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+    "date": "2026-11-03"
    }
   ],
   "lat": 47.604426,
@@ -1178,6 +1225,7 @@ const RESTAURANTS = [
  {
   "id": "the-walrus-and-the-carpenter",
   "name": "The Walrus and The Carpenter",
+  "rank": 23,
   "address": "4743 Ballard Ave NW, Seattle, WA",
   "neighborhood": "Ballard",
   "cuisine": "Seafood",
@@ -1186,15 +1234,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 23)",
-    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
-    "date": "2026-11-04"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-the-walrus-and-the-carpenter",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 23)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+    "date": "2026-11-04"
    }
   ],
   "lat": 47.663607,
@@ -1203,6 +1251,7 @@ const RESTAURANTS = [
  {
   "id": "the-wayland-mill",
   "name": "The Wayland Mill",
+  "rank": 27,
   "address": "3800 Latona Ave NE, Seattle, WA",
   "neighborhood": "Wallingford",
   "cuisine": "Japanese American",
@@ -1211,15 +1260,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 27)",
-    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
-    "date": "2026-11-04"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-the-wayland-mill",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 27)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: No. 30 to 21, with new and old spots alike",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-no-30-to-21-with-new-and-old-spots-alike/",
+    "date": "2026-11-04"
    }
   ],
   "lat": 47.654594,
@@ -1228,6 +1277,7 @@ const RESTAURANTS = [
  {
   "id": "three-sacks-full",
   "name": "Three Sacks Full",
+  "rank": 33,
   "address": "918 NE 64th St, Seattle, WA",
   "neighborhood": "Roosevelt",
   "cuisine": "New American",
@@ -1236,15 +1286,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 33)",
-    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
-    "date": "2026-11-03"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-three-sacks-full",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 33)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+    "date": "2026-11-03"
    }
   ],
   "lat": 47.675155,
@@ -1253,6 +1303,7 @@ const RESTAURANTS = [
  {
   "id": "tomo",
   "name": "Tomo",
+  "rank": 7,
   "address": "9811 16th Ave SW, Seattle, WA",
   "neighborhood": "White Center",
   "cuisine": "Japanese American",
@@ -1267,8 +1318,8 @@ const RESTAURANTS = [
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 7)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-tomo",
     "date": "2026-11-14"
    }
   ],
@@ -1278,6 +1329,7 @@ const RESTAURANTS = [
  {
   "id": "triangle-spirits",
   "name": "Triangle Spirits",
+  "rank": 34,
   "address": "3507 Fremont Pl N, Seattle, WA",
   "neighborhood": "Fremont",
   "cuisine": "Fried chicken / Bar food",
@@ -1286,15 +1338,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 34)",
-    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
-    "date": "2026-11-03"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-triangle-spirits",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 34)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our 2026 favorites roll on, from No. 40 to 31",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-2026-favorites-roll-on-from-no-40-to-31/",
+    "date": "2026-11-03"
    }
   ],
   "lat": 47.650815,
@@ -1303,6 +1355,7 @@ const RESTAURANTS = [
  {
   "id": "un-bien-15th-ave-nw",
   "name": "Un Bien (15th Ave NW)",
+  "rank": 48,
   "address": "7302 15th Ave NW, Seattle, WA",
   "neighborhood": "Ballard",
   "cuisine": "Caribbean",
@@ -1311,15 +1364,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 48)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-un-bien",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 48)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.68157,
@@ -1328,6 +1381,7 @@ const RESTAURANTS = [
  {
   "id": "un-bien-queen-anne",
   "name": "Un Bien (Queen Anne)",
+  "rank": 48,
   "address": "319 W Galer St, Seattle, WA",
   "neighborhood": "Queen Anne",
   "cuisine": "Caribbean",
@@ -1336,15 +1390,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 48)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-un-bien",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 48)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.632204,
@@ -1353,6 +1407,7 @@ const RESTAURANTS = [
  {
   "id": "un-bien-seaview",
   "name": "Un Bien (Seaview Ave NW)",
+  "rank": 48,
   "address": "6226 Seaview Ave NW, Seattle, WA",
   "neighborhood": "Ballard",
   "cuisine": "Caribbean",
@@ -1361,15 +1416,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 48)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-un-bien",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 48)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.674824,
@@ -1378,6 +1433,7 @@ const RESTAURANTS = [
  {
   "id": "upwell-wine-and-coffee",
   "name": "Upwell Wine & Coffee",
+  "rank": 43,
   "address": "4811 California Ave SW, Seattle, WA",
   "neighborhood": "West Seattle",
   "cuisine": "New American",
@@ -1386,15 +1442,15 @@ const RESTAURANTS = [
   "sources": [
    {
     "list": "Seattle's 50 Essential Restaurants (No. 43)",
-    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
-    "date": "2026-11-02"
+    "title": "Seattle's 50 best restaurants 2026: this restaurant's entry in the full list",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/#restaurant-upwell-wine-coffee",
+    "date": "2026-11-14"
    },
    {
     "list": "Seattle's 50 Essential Restaurants (No. 43)",
-    "title": "Seattle's 50 best restaurants 2026: All of our 50 Essential Restaurants",
-    "url": "https://www.seattletimes.com/life/food-drink/seattles-50-best-restaurants-2026-all-of-our-50-essential-restaurants/",
-    "date": "2026-11-14"
+    "title": "Seattle's top 50 restaurants: Our favorite spots, starting with No. 50 to 41",
+    "url": "https://www.seattletimes.com/life/food-drink/seattles-top-50-restaurants-our-favorite-spots-to-eat-in-2026-in-order/",
+    "date": "2026-11-02"
    }
   ],
   "lat": 47.558689,

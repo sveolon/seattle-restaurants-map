@@ -33,7 +33,7 @@ NOMINATIM = "https://nominatim.openstreetmap.org/search"
 MIN_DELAY = 1.1  # Nominatim's usage policy: at most one request per second
 # Greater Seattle (west, south, east, north); results outside it are not trusted.
 VIEWBOX = (-122.65, 47.30, -121.80, 47.85)
-FIELDS = ["id", "name", "address", "neighborhood", "cuisine", "price", "description", "sources", "lat", "lng", "geo"]
+FIELDS = ["id", "name", "rank", "address", "neighborhood", "cuisine", "price", "description", "sources", "lat", "lng", "geo"]
 
 
 def log(msg):

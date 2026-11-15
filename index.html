@@ -38,6 +38,8 @@
   .marker-cluster div { font-weight: 600; }
   .actions { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 8px; }
   .actions a, .actions button { color: var(--accent); font: 600 13px system-ui, sans-serif; text-decoration: none; background: none; border: 0; padding: 4px 0; cursor: pointer; }
+  .card .top { font: 600 12px system-ui, sans-serif; color: var(--accent); margin-bottom: 3px; }
+  .card .top span { color: var(--muted); font-weight: 400; }
   .card b { display: block; font: 600 14px/1.3 system-ui, sans-serif; }
   .card small { display: block; color: var(--muted); margin-top: 3px; font-size: 12px; }
   /* Details panel: right-hand sidebar on wide screens, bottom sheet on phones. */
@@ -106,7 +108,7 @@ function showDetails(r) {
   details.innerHTML =
     `<button id="close" type="button" aria-label="Close">&times;</button>` +
     `<h2>${esc(r.name)}</h2>` +
-    `<div class="meta">${[cuisineOf(r), r.price, r.neighborhood].filter(Boolean).map(esc).join(" · ")}</div>` +
+    `<div class="meta">${[r.rank ? "No. " + r.rank + " of 50" : "", cuisineOf(r), r.price, r.neighborhood].filter(Boolean).map(esc).join(" · ")}</div>` +
     (r.description ? `<p>${esc(r.description)}</p>` : "") +
     (r.address ? `<div>${esc(r.address)}</div>` : "") +
     `<div class="actions"><a href="${mapsUrl(r)}" target="_blank" rel="noopener">Open in Google Maps ›</a>` +
@@ -119,7 +121,8 @@ function showDetails(r) {
 
 function popupHtml(r) {
   const first = (r.sources || [])[0];
-  return `<div class="card"><b>${esc(r.name)}</b><small>${[cuisineOf(r), r.neighborhood].filter(Boolean).map(esc).join(" · ")}</small>` +
+  const top = [r.rank ? `No. ${r.rank} <span>of 50</span>` : "", r.price ? esc(r.price) : ""].filter(Boolean).join(" · ");
+  return `<div class="card">${top ? `<div class="top">${top}</div>` : ""}<b>${esc(r.name)}</b><small>${[cuisineOf(r), r.neighborhood].filter(Boolean).map(esc).join(" · ")}</small>` +
     `<div class="actions"><a href="${mapsUrl(r)}" target="_blank" rel="noopener">Google Maps</a>` +
     (first ? `<a href="${esc(safeUrl(first.url))}" target="_blank" rel="noopener">Seattle Times</a>` : "") +
     `<button type="button" data-details="${esc(r.id)}">Details</button></div></div>`;
