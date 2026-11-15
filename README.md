@@ -25,7 +25,8 @@ Static site: `index.html` + `restaurants.js` (generated). Leaflet from cdnjs, Op
    in `data/restaurants.json`; hand-placed rows are never overwritten.
 4. Open `index.html` to check (or `python3 -m http.server`, then http://localhost:8000).
 
-`python3 tools/geocode.py emit` rebuilds `restaurants.js` offline.
+`python3 tools/geocode.py emit` rebuilds `restaurants.js` offline. It also stamps `index.html` with a hash of the data (`restaurants.js?v=...`), so browsers
+never show stale data after a deploy; commit both files together.
 
 ## Record format (`data/restaurants.json`)
 
