@@ -22,7 +22,14 @@
   #filters[hidden] { display: none; }
   #filters { display: flex; flex-wrap: wrap; gap: 6px; }
   .chip { border: 1px solid var(--line); background: #fff; color: var(--ink); border-radius: 999px; padding: 3px 11px; font: inherit; font-size: 13px; cursor: pointer; }
-  .chip.off { opacity: .4; }
+  .chip:hover { border-color: var(--accent); }
+  .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .chip i { font-style: normal; opacity: .6; margin-left: 4px; font-size: 11px; }
+  #filters { flex-direction: column; flex-wrap: nowrap; align-items: stretch; gap: 6px; flex: 1 1 100%; }
+  .frow { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .frow > span { font: 600 11px system-ui, sans-serif; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); width: 56px; flex: none; }
+  .fstatus { font-size: 13px; color: var(--muted); display: flex; gap: 10px; align-items: center; }
+  .fstatus button { border: 0; background: none; color: var(--accent); font: 600 13px system-ui, sans-serif; cursor: pointer; padding: 0; }
   #main { flex: 1; min-height: 0; position: relative; }
   #map { position: absolute; inset: 0; }
   .pin { width: 28px; height: 28px; border-radius: 50%; background: var(--accent); border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.35); display: flex; align-items: center; justify-content: center; font-size: 14px; line-height: 1; }
@@ -49,6 +56,8 @@
   .locate { background: #fff; border: 2px solid rgba(0,0,0,.25); border-radius: 4px; padding: 6px 10px; font: 600 13px system-ui, sans-serif; cursor: pointer; }
   @media (max-width: 600px) {
     header h1 small { display: none; }
+    #filters { max-height: 38vh; overflow: auto; }
+    .frow > span { width: 100%; }
     #details { top: auto; left: 0; right: 0; bottom: 0; width: auto; max-height: 55%; border-radius: 12px 12px 0 0; }
   }
 </style>
@@ -136,25 +145,49 @@ map.on("popupopen", e => {
   if (b) b.onclick = () => { showDetails(e.popup._source.r); map.closePopup(); };
 });
 
-// Cuisine filters, built from whatever is in the data.
-const cuisines = [...new Set(RESTAURANTS.map(cuisineOf))].sort();
-const active = new Set(cuisines);
-function render() {
-  cluster.clearLayers();
-  cluster.addLayers(markers.filter(m => active.has(cuisineOf(m.r))));
-}
+// Filters: an empty selection means "show everything"; picking chips narrows the map.
+// Within a row chips are OR (Italian or Turkish); between rows they are AND (cuisine and price).
+const PRICES = ["$", "$$", "$$$", "$$$$"];
+const countBy = fn => RESTAURANTS.reduce((m, r) => (m.set(fn(r), (m.get(fn(r)) || 0) + 1), m), new Map());
+const cuisineCount = countBy(cuisineOf), priceCount = countBy(r => r.price || "");
+const cuisines = [...cuisineCount.keys()].sort((a, b) => cuisineCount.get(b) - cuisineCount.get(a) || a.localeCompare(b));
+const sel = { cuisine: new Set(), price: new Set() };
 const filters = document.getElementById("filters");
-for (const c of cuisines) {
-  const b = document.createElement("button");
-  b.className = "chip"; b.type = "button"; b.textContent = c;
-  b.onclick = () => {
-    active.has(c) ? active.delete(c) : active.add(c);
-    b.classList.toggle("off", !active.has(c));
-    render();
-  };
-  filters.appendChild(b);
+const statusBox = document.createElement("div"); statusBox.className = "fstatus";
+const statusText = document.createElement("span");
+const resetBtn = document.createElement("button"); resetBtn.type = "button"; resetBtn.textContent = "Show all";
+statusBox.append(statusText, resetBtn);
+const chips = [];
+function row(label, kind, values, counts) {
+  const el = document.createElement("div"); el.className = "frow"; el.setAttribute("role", "group"); el.setAttribute("aria-label", label);
+  const lab = document.createElement("span"); lab.textContent = label; el.appendChild(lab);
+  for (const v of values) {
+    if (!counts.get(v)) continue;
+    const b = document.createElement("button");
+    b.className = "chip"; b.type = "button"; b.setAttribute("aria-pressed", "false");
+    b.innerHTML = esc(v) + "<i>" + counts.get(v) + "</i>";
+    b.onclick = () => { sel[kind].has(v) ? sel[kind].delete(v) : sel[kind].add(v); render(true); };
+    chips.push({ b, kind, v });
+    el.appendChild(b);
+  }
+  filters.appendChild(el);
 }
-render();
+row("Price", "price", PRICES, priceCount);
+row("Cuisine", "cuisine", cuisines, cuisineCount);
+filters.appendChild(statusBox);
+const visible = m => (!sel.cuisine.size || sel.cuisine.has(cuisineOf(m.r))) && (!sel.price.size || sel.price.has(m.r.price || ""));
+resetBtn.onclick = () => { sel.cuisine.clear(); sel.price.clear(); render(true); };
+function render(fit) {
+  const shown = markers.filter(visible);
+  cluster.clearLayers();
+  cluster.addLayers(shown);
+  for (const c of chips) { const on = sel[c.kind].has(c.v); c.b.classList.toggle("on", on); c.b.setAttribute("aria-pressed", String(on)); }
+  const filtering = sel.cuisine.size + sel.price.size > 0;
+  statusText.textContent = filtering ? `Showing ${shown.length} of ${markers.length}` : `Showing all ${markers.length}`;
+  resetBtn.hidden = !filtering;
+  if (fit && shown.length) map.fitBounds(L.latLngBounds(shown.map(m => m.getLatLng())).pad(0.15), { maxZoom: 15 });
+}
+render(false);
 
 // "Near me": centers on your location with a 2-mile radius circle.
 // Geolocation needs a secure context or a local file; it is skipped in sandboxed iframes.
